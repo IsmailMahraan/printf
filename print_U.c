@@ -31,5 +31,5 @@ int print_U(va_list args)
 		counter += 1;
 	}
 
-	return (count);
+	return (counter);
 }
