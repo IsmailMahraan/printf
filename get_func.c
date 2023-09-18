@@ -19,6 +19,7 @@ int (*get_func(char input))(va_list)
 	{"o", print_octal},
 	{"x", print_hexa},
 	{"X", print_hexA},
+	{"p", print_p},
 	{NULL, NULL}
 };
 
