@@ -20,6 +20,7 @@ int (*get_func(char input))(va_list)
 	{"x", print_hexa},
 	{"X", print_hexA},
 	{"p", print_p},
+	{"r", print_rot},
 	{NULL, NULL}
 };
 

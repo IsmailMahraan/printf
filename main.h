@@ -32,6 +32,7 @@ int print_double(va_list);
 int print_integer(va_list);
 int _putchar(char c);
 int print_percentage(va_list);
+int print_rot(va_list list);
 int print_p(va_list val);
 int print_binary(va_list);
 int (*get_func(char))(va_list);
