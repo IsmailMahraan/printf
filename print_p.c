@@ -6,7 +6,7 @@
  * Return: counter.
  */
 
-int print_pointer(va_list val)
+int print_p(va_list val)
 {
 	void *p;
 	char *s = "(nil)";
